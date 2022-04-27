@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.container {
+  align-items: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  margin:0 auto;
+  max-width: 1280px;
+  position: relative;
+}
+
+.col {
+  width: 100%;
+}
+
+@media(min-width:40em) {
+  .col-25 {
+    width: 25%;
+  }
+
+  .col-33 {
+    width: 33.33%;
+  }
+
+  .col-50 {
+    width: 50%;
+  }
+}
+

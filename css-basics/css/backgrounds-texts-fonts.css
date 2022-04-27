@@ -1,0 +1,27 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background: url('../img/background.png');
+  /* background-position: 100px -100px; */
+  background-size: cover;
+  /* font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif; */
+  font: 1rem/1.5 Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background-color: rgba(221,211,211, 0.25);
+  color: #222;
+}
+
+.text {
+  text-align: center;
+  text-decoration: line-through;
+  text-indent: 1rem;
+  text-transform: uppercase;
+}

@@ -1,0 +1,24 @@
+html {
+  fonst-size: 16px
+}
+
+a {
+   color: #e60
+}
+
+a:link {
+  color: #e60
+}
+
+a:visited {
+  color: #e60
+}
+
+a:hover {
+  text-shadow: 0.1rem 0.1em 0.1rem #999;
+}
+
+a:active {
+  font-size: 1.25rem;
+  color: #f00
+}

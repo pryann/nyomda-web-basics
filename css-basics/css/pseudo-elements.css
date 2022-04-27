@@ -1,0 +1,7 @@
+.tracks li::before {
+  content: "Matallica - ";
+}
+
+.tracks li::after {
+  content: " track";
+}

@@ -1,0 +1,44 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1280px;
+  position: relative;
+}
+
+.col-25 {
+  border: 1px solid #000;
+  margin: 1rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+@media(min-width: 40em) {
+  .col-25 {
+    width: calc(50% - 2rem);
+  }
+}
+
+@media(min-width: 80em) {
+  .col-25 {
+    width: calc(25% - 2rem);
+  }
+}
+
+.bg--green {
+  background: green;
+}

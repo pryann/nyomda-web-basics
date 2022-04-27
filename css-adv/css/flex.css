@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.box {
+ box-shadow: .25rem .25rem .5rem #ddd;
+ padding: 1rem;
+ margin: 0 1rem;
+}
+
+/* .card {
+  width: 100%
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: calc(33.33% - 2rem);
+  }
+} */

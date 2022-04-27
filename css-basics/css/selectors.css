@@ -1,0 +1,50 @@
+/* tag alapú selector */
+html {
+  font-size: 16px
+}
+
+/* tag és class alapú, felsorolt */
+h1, h2, .h3 {
+  color: #234;
+}
+
+/* tag + class*/
+h3.h3 {
+  text-decoration: underline;
+}
+
+/* legyen benne*/
+ul li {
+color: #00f
+}
+
+/* közvetlen gyermek*/
+div > strong {
+  color: #f00
+}
+
+/* közvetlen utána lévő elem (egy darab) */
+div + strong {
+  color: #0f0
+}
+
+.color-red {
+  color: #f00
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* class alapú selector, 90X%-ban ezt ahsználjuk */
+.text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#mainArticle {
+  border: 1px solid #000 ;
+}
+
+.main-article {
+  border: 1px solid #f00;
+}

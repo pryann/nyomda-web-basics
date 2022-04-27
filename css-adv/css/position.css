@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+}
+
+.box--red {
+  background: red;
+}
+
+.box--blue {
+  background: blue;
+  left: 100px;
+  position: relative;
+  top: -100px;
+}
+
+.container {
+  position: relative;
+}
+
+.box--yellow {
+  background: yellow;
+  bottom: 0;
+  position: absolute;
+  right: 0;
+}
